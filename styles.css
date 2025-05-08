@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    color: #b6a3a3;
+}
+
+
+.navbar > .navh1 {
+    font-size: 2.6rem; 
+    font-weight: 810; 
+    color: black;   
+}
+
+
+.navcont{
+    display: flex;
+    gap: 2rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; 
+    gap: 2rem;
+    padding: 2rem; 
+    margin: 2.1rem auto;
+    flex-wrap: wrap
+}
+
+
+
+.cont1 {
+    flex: 2;
+}
+
+.cont1 > img {
+    width: 50%;
+    height: 50%;
+    display: flex;
+}
+
+.cont3 {
+    display: flex;
+    background-color: #0e0e22;
+    color: hsl(36, 100%, 99%);
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-left: 52%;
+    height: auto;
+    margin-top: -22.5rem;
+    width: auto;
+}
+
+.cont3-div1 > h1 {
+    color: hsl(35, 77%, 62%);
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+.cont3-div2 > h2 {
+    color: hsl(36, 100%, 99%);
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.cont3-div2 > h2:hover {
+    color: hsl(35, 77%, 62%);
+}
+
+.cont3-div2 > p {
+    color: hsl(233, 8%, 79%);
+    line-height: 1.6;
+}
+
+.cont3-div2 > hr {
+    border: 0;
+    border-top: 1px solid hsl(233, 8%, 79%);
+    margin: 1.5rem 0;
+}
+
+.bottom-container {
+    display: flex;
+    gap: 2rem;
+}
+
+.main-article {
+    display: flex;
+    gap: 2rem;
+    flex: 2; 
+}
+
+.cont4 {
+    flex: 1; 
+    margin-left: 20rem;
+}
+
+.cont4-div1 > h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: hsl(240, 100%, 5%);
+    line-height: 1;
+    margin-top: 0;
+    margin-left: 20rem;
+}
+
+
+.cont4-div1{
+    margin-left: 15rem;
+}
+
+.cont5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.cont5 > p {
+    color: hsl(236, 13%, 42%);
+    line-height: 1.6;
+}
+
+.cont5-div1 {
+    background-color: hsl(5, 85%, 63%);
+    color: hsl(36, 100%, 99%);
+    padding: 1rem 2rem;
+    text-decoration: none;
+    letter-spacing: 0.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: fit-content;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cont5-div1:hover {
+    background-color: hsl(240, 100%, 5%);
+}
+
+
+
+.cont6, .cont7, .cont8 {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.cont6-div1, .cont7-div1, .cont8-div1 {
+    width: 100px;
+}
+
+.cont6-div1 > img, .cont7-div1 > img, .cont8-div1 > img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.cont6-div2 > h1, .cont7-div2 > h1, .cont8-div2 > h1 {
+    color: #c5c6ce;
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+.cont6-div2 > h2, .cont7-div2 > h2, .cont8-div2 > h2 {
+    margin-top: 0.5rem;
+    font-size: 1rem; 
+    color: #01012d;
+    font-weight: 700;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.cont6-div2 > h2:hover, .cont7-div2 > h2:hover, .cont8-div2 > h2:hover {
+    color: #fc685a;
+}
+
+.cont6-div2 > p, .cont7-div2 > p, .cont8-div2 > p {
+    line-height: 1.6;
+    font-size: 0.8rem;
+    color: #8588aa;
+    
+}
+
+
